@@ -1,0 +1,18 @@
+set(GAME_SRC
+  ${PLATFORM_SPECIFIC_SRC}
+)
+
+set(GAME_HEADERS
+  ${PLATFORM_SPECIFIC_HEADERS}
+)
+
+file(GLOB ALL_FILES
+    "Classes/*.h"
+    "Classes/*.cpp"
+)
+
+if(GAME_HEADERS)
+add_executable(${APP_NAME} ${GAME_SRC} ${GAME_HEADERS} ${ALL_FILES})
+else()
+add_executable(${APP_NAME} ${GAME_SRC})
+endif()
