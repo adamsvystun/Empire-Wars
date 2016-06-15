@@ -1,0 +1,41 @@
+#pragma once
+
+#define _AI_ 0
+
+#define TRANSITION_TIME 0.5
+#define WINDOW_WIDTH 1280
+#define WINDOW_HEIGHT 720
+#define PLAYSCENE_WIDTH 2560
+#define PLAYSCENE_HEIGHT 1240
+#define PLANET_RADIUS 50
+#define PLANET_N 27
+#define MIN_PLANET 8
+#define MIN_EMPIRE 2
+#define START_SHIP_N 5
+#define SHIP_ORBIT_BASE 60
+#define START_DIAM 150
+#define START_ENER 80
+#define START_POWD 50
+#define ATT_DIAM 40
+#define ATT_ENER 23
+#define ATT_POWD 4
+#define RES_DIAM 20
+#define RES_ENER 5
+#define RES_POWD 25
+#define COL_DIAM 45
+#define COL_ENER 45
+#define COL_POWD 45
+#define PLANET_DIAM	10
+#define PLANET_ENER 3
+#define PLANET_POWD 7
+#define SHIP_SPEED 150
+#define ATT_HP 100
+#define ATT_ATT 50
+#define RES_HP 80
+#define RES_ATT 5
+#define COL_HP 200
+#define COL_ATT 0
+#define PLANET_ADD_HP 200
+#define PLANET_ADD_ATT 200
+#define WAR_TIME 2.0f
+#define AI_DEF_ONE_COL 1500
